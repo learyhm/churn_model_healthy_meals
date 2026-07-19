@@ -155,9 +155,8 @@ if st.button("Predict"):
         "NUMACTIVEQUARTERS2022": num_active_quarters,
         "AVGSESSIONSPERQUARTER": avg_sessions_per_quarter,
         "ACTIVEQ4": int(active_q4),
-        "AVG_SESSION_LENGTH": avg_session_length,
-        "ENGAGEMENT_TREND": engagement_trend,
-        "SESSION_FREQUENCY": session_frequency,
+        "AGE": age,
+        "TECH_COMFORT_SCORE": tech_comfort_score,
         "MINDFULLIVINGSUBSCRIPTION": int(mindful_living_subscription),
         "MINDFULLIVINGRENEW": int(mindful_living_renew),
         "PREMIUMHEALTHSUBSCRIPTION": int(premium_health_subscription),
@@ -167,8 +166,9 @@ if st.button("Predict"):
         "DAILYFITNESSSUBSCRIPTION": int(daily_fitness_subscription),
         "DAILYFITNESSRENEW": int(daily_fitness_renew),
         "PRIORRENEWALS": prior_renewals,
-        "AGE": age,
-        "TECH_COMFORT_SCORE": tech_comfort_score
+        "AVG_SESSION_LENGTH": avg_session_length,
+        "ENGAGEMENT_TREND": engagement_trend,
+        "SESSION_FREQUENCY": session_frequency
     }])
 
     # -----------------------------------------------------------
