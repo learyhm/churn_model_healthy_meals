@@ -51,8 +51,8 @@ st.write("Enter customer attributes to predict the likelihood of subscription re
 # -------------------------
 st.header("🧍 Demographics")
 
-age = st.slider("Age", min_value=18, max_value=100, value=35)
-tech_comfort_score = st.slider("Tech Comfort Score", min_value=1, max_value=10, value=5)
+age = st.slider("Age", min_value=18, max_value=65, value=35)
+tech_comfort_score = st.slider("Tech Comfort Score", min_value=1, max_value=5, value=3)
 
 income_level = st.radio(
     "Income Level",
@@ -79,7 +79,7 @@ st.header("📈 Engagement Features")
 
 num_session = st.slider("Total Sessions (Past Year)", 0, 300, 27)
 gross_sessions_length = st.slider("Gross Session Length (Minutes)", 0, 20000, 1500)
-num_active_days = st.slider("Active Days", 0, 365, 45)
+num_active_days = st.slider("Active Days", 0, 365, 3)
 num_active_quarters = st.slider("Active Quarters in 2022", 0, 4, 2)
 avg_sessions_per_quarter = st.slider("Avg Sessions per Quarter", 0, 100, 10)
 active_q4 = st.checkbox("Active in Q4", value=True)
